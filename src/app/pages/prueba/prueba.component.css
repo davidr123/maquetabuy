@@ -109,3 +109,15 @@ width: 130px;
   padding-left: 94px;
 }
 
+.mat-column-total {
+ 
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.mat-column-subtotal {
+ 
+  text-align: left;
+  /* font-weight: bold; */
+}
