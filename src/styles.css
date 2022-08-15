@@ -1,0 +1,173 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+body{
+    background-color: rgba(238, 232, 227, 0.918);
+}
+
+/* table{
+    height: 300px;
+} */
+
+th{
+    /* color:cornflowerblue */
+   
+    
+}  
+
+/* table th,td, label{
+    color: rgba(0, 0, 0, 0.603);
+    
+} */
+
+
+.table>tbody{
+    vertical-align: middle;
+    /* color: red; */
+}
+
+hr{
+    border: solid 2px blue;
+}
+
+.line{
+width: 100%;
+}
+
+.main{
+   margin: 0 1.5rem;
+}
+
+.contenedor{
+    display: flex;
+
+    gap: .1rem;
+    margin: 2rem;
+    justify-content: space-evenly;
+
+}
+
+.item1{
+    flex-basis: 850px;
+    height: 385px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   border-radius: 1rem;
+
+    
+}
+
+.item2{
+    flex-basis: 40px;
+    /* height: 50px; */
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}
+
+.item3{
+    flex-basis: 40px;
+    /* height: 50px; */
+    /* height: 400px; */
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}
+
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.bt{
+    /* background-size: 300%; */
+    border-radius: 30px;
+    color: white;
+    margin: .8rem 0 0 6rem;
+    
+}
+
+.btn-warning{
+    color: white;
+}
+.btn{
+    color: white;
+
+}
+
+.bord{
+    border-left: solid 4px yellow;
+}
+
+.titledate{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin: 1.4rem 0 0 1.4rem;
+}
+
+.titlepa{
+    display: flex;
+    gap: 10px;
+}
+
+.recuerda{
+    color: blue;
+}
+
+.parrafo{
+    color: black;
+}
+
+.close{
+   
+    border-radius: 50px;
+    color:rgba(0, 0, 0, 0.603);
+    margin: .8rem 0 0 6rem;
+    width: 100px;
+    
+}
+
+.modal-footer{
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+
+
+.precios{
+    display: flex;
+    width: 63px;
+    height: 28px;
+
+align-items: flex-start;
+justify-content: space-evenly;
+    border: 1px solid rgba(153, 152, 152, 0.541);
+    border-radius: 6px;
+   
+}
+
+.precios span{
+    text-align: center;
+    font-weight: 400;
+}
+
+.precios span.increment{
+    width: 40px;
+    height: 21px;
+    /* border-radius: 4px; */
+
+    background-color: rgba(248, 244, 244, 0.76);
+}
+
+.precios span.decrement{
+    width: 40px;
+    height: 21px;
+
+    /* border-radius: 4px; */
+
+    background-color: rgba(248, 244, 244, 0.76);
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

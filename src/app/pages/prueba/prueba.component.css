@@ -1,0 +1,90 @@
+
+
+  .mat-table
+  {
+    background-color:transparent!important;  
+  }
+
+  table {
+    width: 100%;
+   
+    border-collapse: collapse;
+    border-radius: 1rem;
+  }
+
+  .tabla1{
+    height: 340px;
+  }
+  table tr:last-child td /*To remove the last border*/
+  {
+    border-bottom:0 solid
+  }
+
+
+.con{
+   
+display: flex;
+
+
+
+
+margin-top: 2rem;
+
+  
+  }
+
+ 
+
+  th, td {
+ 
+    width: 200px;
+   
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .items1{
+
+
+
+
+  }
+
+  .mains{
+    margin: 3rem 1.5rem;
+  }
+
+
+  .mainssec{
+    margin: 3rem 1.5rem;
+    
+  }
+
+  .content23{
+    display: flex;
+    gap: 20px;
+  }
+
+  .items2{
+    
+  
+    /* height: 50px; */
+    
+    
+    border-radius: 1rem;
+}
+
+.tabla3{
+  height: 200px;
+
+}
+
+.items3{
+    
+    /* height: 50px; */
+    /* height: 400px; */
+
+   
+ 
+}
+
