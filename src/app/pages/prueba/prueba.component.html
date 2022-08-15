@@ -106,8 +106,8 @@
         </div>
     
         <div class="items3">
-            <div class="">
-                <table mat-table [dataSource]="dataSource3" class="mat-elevation-z8 tabla3">
+            <div class="mat-elevation-z8 tab3">
+                <table mat-table [dataSource]="dataSource3" >
 
                     <!--- Note that these columns can be defined in any order.
                           The actual rendered columns are set as a property on the row definition" -->
@@ -123,21 +123,12 @@
     
                     <ng-container matColumnDef="total">
                         <th mat-header-cell *matHeaderCellDef> </th>
-                        <td mat-cell *matCellDef="let element">
+                        <td mat-cell *matCellDef="let element" class="letras">
                        {{element.subtotal}}
                       </td>
                       </ng-container>
 
 
-                      <!-- <ng-container matColumnDef="accion">
-                        <th mat-header-cell *matHeaderCellDef> </th>
-                        <td mat-cell *matCellDef="let element">
-                            
-                      </td>
-                      </ng-container> -->
-
-                    
-                    
                     <!-- Name Column -->
     
                  
@@ -148,7 +139,7 @@
                    
                    
                   </table>
-                  <button mat-raised-button color="warn">Warn</button>
+                  <button mat-raised-button class="botontab bt">GUARDAR</button>
             </div>
         
         </div>

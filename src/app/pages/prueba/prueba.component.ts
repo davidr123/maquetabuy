@@ -41,7 +41,7 @@ const ELEMENT_DATA2: Asignar[] = [
 
 const ELEMENT_DATA3: Totales[] = [
    {descripcion:'subtotal',  subtotal:'$6,00'},
-   {descripcion:'total',  subtotal:'$6,00'},
+   {descripcion:'TOTAL',  subtotal:'$6,00'},
 
 
 

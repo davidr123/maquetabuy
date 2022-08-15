@@ -20,6 +20,9 @@
     border-bottom:0 solid
   }
 
+  .tab3{
+    border-radius: 1rem;
+  }
 
 .con{
    
@@ -71,20 +74,38 @@ margin-top: 2rem;
     /* height: 50px; */
     
     
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
 }
 
 .tabla3{
-  height: 200px;
+  height: 100px;
 
 }
 
 .items3{
+  /* border-radius: 1rem; */
     
     /* height: 50px; */
     /* height: 400px; */
 
    
  
+}
+.botontab{
+  background-color: yellow;
+  color: white;
+  /* border-radius: 1rem; */
+width: 130px;
+  border-radius: 30px;
+ 
+  margin-bottom: .5rem;
+  margin-left:6rem;
+  
+
+ 
+}
+
+.letras{
+  padding-left: 94px;
 }
 
